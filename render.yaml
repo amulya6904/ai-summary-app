@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-summary-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: OPENAI_API_KEY
+        value: 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
