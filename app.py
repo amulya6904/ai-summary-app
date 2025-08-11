@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # 🔑 Paste your OpenRouter API key here directly
-API_KEY = "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"  # Replace with your real key
+API_KEY = " API key"  # Replace with your real key
 
 @app.route("/", methods=["GET", "POST"])
 def index():
